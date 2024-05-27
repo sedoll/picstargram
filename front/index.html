@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Picstar</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" id="home-link">Home</a></li>
+                    <li><a href="#">Direct</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#" id="profile-link">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main-content" id="feed-page">
+                <div class="grid-container">
+                    <!-- Posts will go here -->
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img.jpg" alt="Post Image">
+                    </div>
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img.jpg" alt="Post Image">
+                    </div>
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img.jpg" alt="Post Image">
+                    </div>
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img2.jpg" alt="Post Image">
+                    </div>
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img2.jpg" alt="Post Image">
+                    </div>
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img2.jpg" alt="Post Image">
+                    </div>
+                    <!-- Add more posts as needed -->
+                </div>
+            </div>
+            <div class="main-content" id="profile-page" style="display: none;">
+                <div class="profile-header">
+                    <img src="profile.jpg" alt="Profile Picture">
+                    <div class="profile-info">
+                        <p class="username">username</p>
+                        <p class="fullname">Full Name</p>
+                    </div>
+                </div>
+                <div class="profile-posts grid-container">
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img.jpg" alt="Post Image">
+                    </div>
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img2.jpg" alt="Post Image">
+                    </div>
+                    <div class="post">
+                        <div class="post-info">
+                            <p><strong>username</strong></p>
+                        </div>
+                        <img src="../img/test-img.jpg" alt="Post Image">
+                    </div>
+                    <!-- Add more posts as needed -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
